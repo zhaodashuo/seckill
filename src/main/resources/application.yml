@@ -1,0 +1,62 @@
+server:
+  port: 8080
+  tomcat:
+    accept-count: 1000
+    max-connections: 2000
+
+zookeeper:
+  address: 114.215.179.51:2181,114.215.179.51:2182,114.215.179.51:2183
+  
+spring:
+  freemarker:
+    suffix: .html
+  application:
+    name: distributed-seckill
+  session:
+    store-type: none
+  kafka:
+    bootstrap-servers: 114.215.179.51:9092
+#    - 192.168.240.43:9092
+#    - 192.168.240.44:9092
+    consumer:
+      group-id: 0
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      batch-size: 65536
+      buffer-memory: 524288
+  redis:
+    database: 0
+    port: 6379
+    password: 
+#    timeout: 3000
+    timeout1: 3000
+    host: 114.215.179.51
+#    cluster:
+#      nodes: 192.168.234.18:6579,192.168.234.28:6579,192.168.234.29:6579,192.168.234.30:6579,192.168.234.6:6579,192.168.234.43:6579
+    jedis:
+      pool:
+        max-active: 180
+        max-wait: 6000ms
+        max-idle: 80
+        min-idle: 0
+  datasource:
+      name: 数据源
+      url: jdbc:mysql://localhost:3306/bm_market?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+      username: root
+      password: 12345678
+      druid:
+        initial-size: 5 #连接池初始化大小
+        min-idle: 10 #最小空闲连接数
+        max-active: 20 #最大连接数
+        web-stat-filter:
+          exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*" #不统计这些请求数据
+        stat-view-servlet: #访问监控网页的登录用户名和密码
+          loginUsername: admin
+          loginPassword: 123456
+          enabled: true
+
+ 
+  

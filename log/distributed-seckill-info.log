@@ -1,0 +1,1370 @@
+[2m2020-06-26 00:27:43.204[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 10328 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:27:43.219[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:27:47.210[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:27:47.212[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:27:47.277[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 36ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:27:47.320[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:27:47.322[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:27:47.357[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:27:49.324[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:27:49.340[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:27:49.341[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:27:49.343[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:27:49.343[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:27:49.344[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:27:49.344[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:27:50.481[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:27:50.874[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:27:50.874[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 7209 ms
+[2m2020-06-26 00:27:51.532[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:27:51.591[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:27:53.147[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:27:53.478[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:27:53.734[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:27:53.911[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:27:54.547[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:27:54.890[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:27:56.544[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:27:56.576[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:28:01.058[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[sson-netty-1-17][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:28:01.058[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:28:04.615[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:28:06.887[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:28:07.052[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:28:07.055[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:28:07.056[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593102487044
+[2m2020-06-26 00:28:07.135[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:28:07.142[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:28:07.314[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:28:07.315[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:28:07.403[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:28:07.510[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:28:08.066[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:28:08.076[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:28:08.086[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:28:08.097[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:28:08.102[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:28:08.117[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:28:08.122[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:28:08.127[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:28:08.132[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:28:08.160[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:28:08.161[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:28:08.190[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 29.478 seconds (JVM running for 36.972)
+[2m2020-06-26 00:28:08.841[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:28:08.846[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:28:08.851[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:28:09.238[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:28:09.241[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:28:09.373[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 292: {consumer-0-1-30e47717-473c-40b7-9ed8-58b9c66790ec=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:28:09.533[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 292
+[2m2020-06-26 00:28:09.543[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:28:10.092[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:28:10.095[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:28:30.278[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:28:30.279[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:28:30.351[0;39m [32m INFO[0;39m [35m10328[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 71 ms
+[2m2020-06-26 00:32:51.504[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 1752 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:32:51.509[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:32:54.159[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:32:54.160[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:32:54.259[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 55ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:32:54.338[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:32:54.347[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:32:54.407[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:32:56.093[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:32:56.114[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:32:56.115[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:32:56.119[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:32:56.120[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:32:56.120[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:32:56.120[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:32:57.219[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:32:57.570[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:32:57.570[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 5974 ms
+[2m2020-06-26 00:32:58.382[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:32:58.422[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:32:58.677[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:32:58.779[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:32:59.016[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:32:59.173[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:32:59.534[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:32:59.931[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:33:01.947[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:33:01.967[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:33:06.960[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[sson-netty-1-20][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:33:06.961[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:33:09.532[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:33:11.622[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:33:12.145[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:33:12.146[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:33:12.147[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593102791995
+[2m2020-06-26 00:33:12.226[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:33:12.231[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:33:13.694[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:33:13.695[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:33:14.440[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:33:14.749[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:33:15.086[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:33:15.101[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:33:15.113[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:33:15.131[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:33:15.138[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:33:15.227[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:33:15.235[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:33:15.244[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:33:15.252[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:33:15.366[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:33:15.367[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:33:15.409[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 26.861 seconds (JVM running for 33.89)
+[2m2020-06-26 00:33:16.080[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:33:16.083[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:33:16.094[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:33:16.485[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:33:16.485[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:33:16.565[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 294: {consumer-0-1-b8c3b8f2-b53b-4383-94ac-2c690cdb6163=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:33:16.646[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 294
+[2m2020-06-26 00:33:16.654[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:33:16.807[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:33:16.909[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:33:25.830[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:33:25.830[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:33:25.845[0;39m [32m INFO[0;39m [35m1752[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 15 ms
+[2m2020-06-26 00:35:12.304[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 15332 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:35:12.312[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:35:15.903[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:35:15.904[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:35:15.953[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 22ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:35:15.985[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:35:15.987[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:35:16.017[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:35:19.021[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:35:19.043[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:35:19.046[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:35:19.048[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:35:19.049[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:35:19.049[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:35:19.049[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:35:20.153[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:35:20.647[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:35:20.648[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 8267 ms
+[2m2020-06-26 00:35:21.284[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:35:21.323[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:35:21.636[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:35:21.782[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:35:22.009[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:35:22.232[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:35:22.561[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:35:22.925[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:35:24.668[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:35:24.687[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:35:30.979[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[sson-netty-1-21][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:35:30.979[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[sson-netty-1-22][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:35:34.004[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:35:36.007[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:35:36.120[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:35:36.120[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:35:36.121[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593102936116
+[2m2020-06-26 00:35:36.126[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:35:36.134[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:35:36.223[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:35:36.226[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:35:36.300[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:35:36.467[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:35:36.869[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:35:36.886[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:35:36.894[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:35:36.910[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:35:36.920[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:35:36.931[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:35:36.933[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:35:36.947[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:35:36.951[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:35:36.980[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:35:36.980[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:35:36.999[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 26.029 seconds (JVM running for 30.053)
+[2m2020-06-26 00:35:37.175[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:35:37.179[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:35:37.188[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:35:37.403[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:35:37.405[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:35:37.497[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 296: {consumer-0-1-37bd1d6b-908e-49f5-81b6-25c63fefa647=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:35:37.597[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 296
+[2m2020-06-26 00:35:37.602[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:35:37.858[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:35:37.860[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:35:43.913[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:35:43.914[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:35:43.932[0;39m [32m INFO[0;39m [35m15332[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 18 ms
+[2m2020-06-26 00:36:18.017[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 6240 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:36:18.020[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:36:20.671[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:36:20.673[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:36:20.745[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 36ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:36:20.810[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:36:20.813[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:36:20.838[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:36:23.020[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:36:23.037[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:36:23.038[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:36:23.048[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:36:23.049[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:36:23.050[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:36:23.050[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:36:24.142[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:36:24.482[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:36:24.482[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 6412 ms
+[2m2020-06-26 00:36:24.850[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:36:24.882[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:36:25.077[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:36:25.159[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:36:25.348[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:36:25.594[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:36:25.841[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:36:26.285[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:36:28.845[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:36:28.869[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:36:37.413[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[sson-netty-1-14][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:36:37.421[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:36:39.698[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:36:41.504[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:36:41.604[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:36:41.604[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:36:41.604[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103001604
+[2m2020-06-26 00:36:41.614[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:36:41.614[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:36:41.674[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:36:41.674[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:36:41.709[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:36:41.804[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:36:42.030[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:36:42.040[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:36:42.048[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:36:42.065[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:36:42.073[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:36:42.080[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:36:42.084[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:36:42.089[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:36:42.094[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:36:42.114[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:36:42.114[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:36:42.129[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 25.994 seconds (JVM running for 31.68)
+[2m2020-06-26 00:36:42.852[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:36:42.857[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:36:42.863[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:36:43.064[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:36:43.065[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:36:43.149[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 298: {consumer-0-1-1782da18-952b-4a99-91fc-e46ab2c7cd5f=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:36:43.284[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 298
+[2m2020-06-26 00:36:43.299[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:36:43.500[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:36:43.502[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:36:48.126[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:36:48.126[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:36:48.144[0;39m [32m INFO[0;39m [35m6240[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 18 ms
+[2m2020-06-26 00:37:37.504[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 9120 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:37:37.514[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:37:38.764[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:37:38.765[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:37:38.786[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 12ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:37:38.804[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:37:38.805[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:37:38.820[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:37:39.886[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:37:39.896[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:37:39.897[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:37:39.898[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:37:39.899[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:37:39.899[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:37:39.900[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:37:40.975[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:37:41.238[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:37:41.238[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3664 ms
+[2m2020-06-26 00:37:41.538[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:37:41.569[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:37:41.685[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:37:41.735[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:37:41.808[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:37:41.939[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:37:42.091[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:37:42.273[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:37:43.149[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:37:43.174[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:37:48.044[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:37:48.044[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:37:49.392[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:37:50.355[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:37:50.448[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:37:50.448[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:37:50.448[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103070433
+[2m2020-06-26 00:37:50.448[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:37:50.448[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:37:50.480[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:37:50.480[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:37:50.511[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:37:50.589[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:37:50.823[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:37:50.823[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:37:50.839[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:37:50.839[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:37:50.855[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:37:50.855[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:37:50.870[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:37:50.870[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:37:50.870[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:37:50.902[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:37:50.902[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:37:50.902[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 14.78 seconds (JVM running for 18.561)
+[2m2020-06-26 00:37:51.209[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:37:51.209[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:37:51.225[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:37:51.490[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:37:51.490[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:37:51.646[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 300: {consumer-0-1-ead9284a-ccc6-4e03-8af5-575a29814bfd=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:37:51.787[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 300
+[2m2020-06-26 00:37:51.803[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:37:51.959[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:37:51.959[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:38:08.496[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:38:08.497[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:38:08.515[0;39m [32m INFO[0;39m [35m9120[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 18 ms
+[2m2020-06-26 00:39:51.641[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 11716 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:39:51.641[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:39:54.470[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:39:54.470[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:39:54.626[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 41ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:39:54.657[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:39:54.657[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:39:54.704[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:39:57.094[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:39:57.157[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:39:58.225[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:39:58.515[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:39:58.515[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 6624 ms
+[2m2020-06-26 00:39:58.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:39:58.837[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:39:58.995[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:39:59.076[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:39:59.379[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:39:59.676[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:39:59.926[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:40:00.126[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:40:01.304[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:40:01.320[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:40:05.334[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[sson-netty-1-16][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:40:05.334[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:40:07.405[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:40:09.670[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:40:09.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:40:09.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:40:09.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103209795
+[2m2020-06-26 00:40:09.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:40:09.811[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:40:09.858[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:40:09.873[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:40:09.920[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:40:10.540[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:40:11.378[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:40:11.393[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:40:11.393[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:40:11.409[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:40:11.430[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:40:11.434[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:40:11.437[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:40:11.441[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:40:11.444[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:40:11.460[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:40:11.460[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:40:11.475[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 21.187 seconds (JVM running for 24.202)
+[2m2020-06-26 00:40:11.679[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:40:11.679[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:40:11.694[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:40:11.913[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:40:11.913[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:40:12.007[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 302: {consumer-0-1-16b06c0f-48c6-4884-a20d-6326a004d629=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:40:12.100[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 302
+[2m2020-06-26 00:40:12.100[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:40:12.330[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:40:12.335[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:40:16.634[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:40:16.638[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:40:16.658[0;39m [32m INFO[0;39m [35m11716[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 20 ms
+[2m2020-06-26 00:42:29.913[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 15920 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:42:29.934[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:42:32.138[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:42:32.139[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:42:32.175[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 19ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:42:32.209[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:42:32.211[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:42:32.237[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:42:34.882[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:42:34.960[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:42:34.962[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:42:34.967[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:42:34.970[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:42:34.971[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:42:34.972[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:42:36.963[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:42:38.270[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:42:38.271[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 8226 ms
+[2m2020-06-26 00:42:38.710[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:42:38.749[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:42:39.032[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:42:39.101[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:42:39.412[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:42:39.603[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:42:39.905[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:42:40.312[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:42:41.579[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:42:41.592[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:42:45.757[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[sson-netty-1-22][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:42:45.757[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:42:47.087[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:42:48.599[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:42:48.682[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:42:48.682[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:42:48.682[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103368682
+[2m2020-06-26 00:42:48.682[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:42:48.682[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:42:48.747[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:42:48.747[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:42:48.772[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:42:48.836[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:42:49.132[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:42:49.132[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:42:49.142[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:42:49.152[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:42:49.162[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:42:49.162[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:42:49.172[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:42:49.172[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:42:49.184[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:42:49.202[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:42:49.202[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:42:49.212[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 21.254 seconds (JVM running for 25.26)
+[2m2020-06-26 00:42:49.532[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:42:49.532[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:42:49.543[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:42:49.773[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:42:49.773[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:42:49.874[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 304: {consumer-0-1-c10c2f4e-8ade-4f0b-9b23-a1ab61c105f5=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:42:49.953[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 304
+[2m2020-06-26 00:42:49.966[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:42:50.142[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:42:50.248[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:42:51.260[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:42:51.260[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:42:51.290[0;39m [32m INFO[0;39m [35m15920[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 29 ms
+[2m2020-06-26 00:45:02.596[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 13424 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:45:02.603[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:45:04.297[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:45:04.299[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:45:04.321[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 11ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:45:04.338[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:45:04.341[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:45:04.357[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:45:05.600[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:45:05.613[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:45:05.614[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:45:05.616[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:45:05.617[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:45:05.617[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:45:05.617[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:45:06.689[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:45:06.964[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:45:06.965[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 4257 ms
+[2m2020-06-26 00:45:07.267[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:45:07.294[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:45:07.498[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:45:07.568[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:45:07.740[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:45:07.962[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:45:08.197[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:45:08.391[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:45:09.807[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:45:09.818[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:45:14.193[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[sson-netty-1-20][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:45:14.193[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:45:15.692[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:45:17.652[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:45:17.796[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:45:17.797[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:45:17.797[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103517794
+[2m2020-06-26 00:45:17.801[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:45:17.804[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:45:17.845[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:45:17.846[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:45:17.892[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:45:18.014[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:45:18.228[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:45:18.240[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:45:18.263[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:45:18.281[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:45:18.293[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:45:18.311[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:45:18.315[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:45:18.319[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:45:18.323[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:45:18.343[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:45:18.344[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:45:18.356[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 17.772 seconds (JVM running for 23.541)
+[2m2020-06-26 00:45:18.738[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:45:18.742[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:45:18.746[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:45:18.990[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:45:18.990[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:45:19.126[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 306: {consumer-0-1-e96e0e5a-8541-45d0-9dd0-128e02cf52cc=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:45:19.219[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 306
+[2m2020-06-26 00:45:19.271[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:45:19.461[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:45:19.463[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:45:34.045[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:45:34.046[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:45:34.071[0;39m [32m INFO[0;39m [35m13424[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 25 ms
+[2m2020-06-26 00:50:31.066[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 10452 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 00:50:31.070[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 00:50:34.367[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:50:34.367[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 00:50:34.408[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 17ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 00:50:34.504[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 00:50:34.504[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 00:50:34.617[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 10ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 00:50:36.296[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 00:50:36.316[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 00:50:36.317[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 00:50:36.320[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 00:50:36.321[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 00:50:36.322[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 00:50:36.323[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 00:50:37.454[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 00:50:38.009[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 00:50:38.010[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 6832 ms
+[2m2020-06-26 00:50:38.604[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 00:50:38.639[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 00:50:38.815[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 00:50:38.905[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 00:50:39.141[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 00:50:39.287[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 00:50:39.581[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 00:50:39.838[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 00:50:41.374[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 00:50:41.384[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 00:50:45.703[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[sson-netty-1-18][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:50:45.703[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[sson-netty-1-21][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 00:50:47.535[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 00:50:48.985[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 00:50:49.172[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 00:50:49.172[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 00:50:49.172[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593103849172
+[2m2020-06-26 00:50:49.188[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 00:50:49.188[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 00:50:49.265[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 00:50:49.265[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 00:50:49.390[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 00:50:49.562[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 00:50:49.762[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 00:50:49.774[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 00:50:49.784[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 00:50:49.799[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 00:50:49.804[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 00:50:49.810[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 00:50:49.813[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 00:50:49.816[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 00:50:49.819[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 00:50:49.846[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 00:50:49.847[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 00:50:49.861[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 20.204 seconds (JVM running for 24.327)
+[2m2020-06-26 00:50:50.218[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 00:50:50.220[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 00:50:50.226[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:50:50.460[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 00:50:50.461[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 00:50:50.575[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 308: {consumer-0-1-aade538c-27c8-458c-a4fe-a952f3d157ee=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 00:50:50.661[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 308
+[2m2020-06-26 00:50:50.670[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 00:50:50.891[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 00:50:50.896[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 00:50:55.030[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 00:50:55.031[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 00:50:55.048[0;39m [32m INFO[0;39m [35m10452[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 17 ms
+[2m2020-06-26 01:04:20.867[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Starting SeckillApplication on CHINA-20190506K with PID 6472 (F:\code\idea_code\seckill\target\classes started by Administrator in F:\code\idea_code\seckill)
+[2m2020-06-26 01:04:20.936[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+[2m2020-06-26 01:04:25.736[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 01:04:25.752[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+[2m2020-06-26 01:04:26.126[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 191ms. Found 0 JPA repository interfaces.
+[2m2020-06-26 01:04:26.848[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+[2m2020-06-26 01:04:26.850[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[2m2020-06-26 01:04:27.076[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
+[2m2020-06-26 01:04:29.355[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.36]
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m An older version [1.2.14] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m Loaded Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2m2020-06-26 01:04:29.370[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2m2020-06-26 01:04:30.888[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.catalina.core.AprLifecycleListener  [0;39m [2m:[0;39m OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+[2m2020-06-26 01:04:31.205[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2020-06-26 01:04:31.205[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 10196 ms
+[2m2020-06-26 01:04:31.536[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-26 01:04:31.552[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Starting...
+[2m2020-06-26 01:04:31.735[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m 数据源 - Start completed.
+[2m2020-06-26 01:04:31.829[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2020-06-26 01:04:32.042[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.17.Final
+[2m2020-06-26 01:04:32.236[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.redisson.Version                    [0;39m [2m:[0;39m Redisson 3.10.4
+[2m2020-06-26 01:04:32.505[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+[2m2020-06-26 01:04:32.936[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+[2m2020-06-26 01:04:34.477[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2020-06-26 01:04:34.486[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[         task-1][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2020-06-26 01:04:38.782[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[sson-netty-1-13][0;39m [36mo.r.c.pool.MasterConnectionPool         [0;39m [2m:[0;39m 10 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 01:04:38.782[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[sson-netty-1-23][0;39m [36mo.r.c.pool.MasterPubSubConnectionPool   [0;39m [2m:[0;39m 1 connections initialized for 114.215.179.51/114.215.179.51:6379
+[2m2020-06-26 01:04:40.384[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mpertySourcedRequestMappingHandlerMapping[0;39m [2m:[0;39m Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2m2020-06-26 01:04:41.871[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.ConsumerConfig   [0;39m [2m:[0;39m ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [114.215.179.51:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = 0
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[2m2020-06-26 01:04:41.999[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka version: 2.5.0
+[2m2020-06-26 01:04:41.999[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka commitId: 66563e712b0b9f84
+[2m2020-06-26 01:04:41.999[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.kafka.common.utils.AppInfoParser    [0;39m [2m:[0;39m Kafka startTimeMs: 1593104681983
+[2m2020-06-26 01:04:41.999[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.k.clients.consumer.KafkaConsumer    [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Subscribed to topic(s): demo_seckill_queue1
+[2m2020-06-26 01:04:41.999[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.c.ThreadPoolTaskScheduler         [0;39m [2m:[0;39m Initializing ExecutorService
+[2m2020-06-26 01:04:42.094[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2020-06-26 01:04:42.094[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Context refreshed
+[2m2020-06-26 01:04:42.141[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36md.s.w.p.DocumentationPluginsBootstrapper[0;39m [2m:[0;39m Found 1 custom documentation plugin(s)
+[2m2020-06-26 01:04:42.203[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36ms.d.s.w.s.ApiListingReferenceScanner    [0;39m [2m:[0;39m Scanning for api listing references
+[2m2020-06-26 01:04:42.687[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_1
+[2m2020-06-26 01:04:42.703[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_2
+[2m2020-06-26 01:04:42.703[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_3
+[2m2020-06-26 01:04:42.719[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_4
+[2m2020-06-26 01:04:42.719[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_5
+[2m2020-06-26 01:04:42.734[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_6
+[2m2020-06-26 01:04:42.734[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_7
+[2m2020-06-26 01:04:42.734[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_8
+[2m2020-06-26 01:04:42.734[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36m.d.s.w.r.o.CachingOperationNameGenerator[0;39m [2m:[0;39m Generating unique operation named: Guoqing_9
+[2m2020-06-26 01:04:42.765[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Triggering deferred initialization of Spring Data repositories…
+[2m2020-06-26 01:04:42.765[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mDeferredRepositoryInitializationListener[0;39m [2m:[0;39m Spring Data repositories initialized!
+[2m2020-06-26 01:04:42.781[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[           main][0;39m [36mzhaoshuo.seckill.SeckillApplication     [0;39m [2m:[0;39m Started SeckillApplication in 23.689 seconds (JVM running for 28.506)
+[2m2020-06-26 01:04:43.312[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36morg.apache.kafka.clients.Metadata       [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Cluster ID: KdGdIMfGQG2H-3E5jeeQbw
+[2m2020-06-26 01:04:43.328[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Discovered group coordinator 114.215.179.51:9092 (id: 2147483643 rack: null)
+[2m2020-06-26 01:04:43.359[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 01:04:43.621[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Join group failed with org.apache.kafka.common.errors.MemberIdRequiredException: The group member needs to have a valid member id before actually entering a consumer group
+[2m2020-06-26 01:04:43.621[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] (Re-)joining group
+[2m2020-06-26 01:04:43.702[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Finished assignment for group at generation 310: {consumer-0-1-d3b949f3-b226-432b-b1d5-3f75118922ec=Assignment(partitions=[demo_seckill_queue1-0])}
+[2m2020-06-26 01:04:43.786[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.AbstractCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Successfully joined group with generation 310
+[2m2020-06-26 01:04:43.801[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Adding newly assigned partitions: demo_seckill_queue1-0
+[2m2020-06-26 01:04:44.218[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.a.k.c.c.internals.ConsumerCoordinator [0;39m [2m:[0;39m [Consumer clientId=consumer-0-1, groupId=0] Setting offset for partition demo_seckill_queue1-0 to the committed offset FetchPosition{offset=1168, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[114.215.179.51:9092 (id: 4 rack: null)], epoch=0}}
+[2m2020-06-26 01:04:44.218[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[ntainer#0-0-C-1][0;39m [36mo.s.k.l.KafkaMessageListenerContainer   [0;39m [2m:[0;39m 0: partitions assigned: [demo_seckill_queue1-0]
+[2m2020-06-26 01:04:53.703[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2020-06-26 01:04:53.703[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-26 01:04:53.719[0;39m [32m INFO[0;39m [35m6472[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 15 ms
